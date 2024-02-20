@@ -12,7 +12,20 @@ body {
 body {
   background-color: #fff; /* Set default background color */
 }
-
+@font-face {
+    font-family: "Genshin";
+    src: url("zh-cn.ttf");
+    /* Other font attributes can be added here */
+}
+.genshin {
+  font-family: "Genshin", sans-serif;
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
 .clock-column {
   background-size: cover;
   background-repeat: no-repeat;
